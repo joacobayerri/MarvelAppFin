@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorites"
+        android:title="Favoritos"
+        android:icon="@drawable/ic_star_border"
+        app:showAsAction="never" /> <!-- Cambiado a "never" para que no aparezca en la barra de acción -->
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/ic_arrow_back"
+        app:showAsAction="never" /> <!-- Cambiado a "never" para que no aparezca en la barra de acción -->
+</menu>
